@@ -5,7 +5,6 @@ import { useState, useEffect } from "react"
 import { Plus, Minus, ShoppingCart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { useRouter } from 'next/navigation'
 import { loadStripe } from '@stripe/stripe-js'
 
 const products = {
